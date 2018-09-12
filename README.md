@@ -52,12 +52,20 @@ After adding content, convert file:
 
 ### custom fish_prompt
 
+Custom ascii font: http://www.network-science.de/ascii/
+
 I moved these files to my faye_setup folder, so update it to the quotes path. Edit config.fish file in `~/.config/fish/config.fish`.
 
 ```
 function fish_greeting
-  set animal (random choice {default,dragon,small,turtle,elephant,moose,stegosaurus,tux})
-  fortune /Users/faye.cheng/faye_setup/quotes | cowsay -f $animal | lolcat
+  echo
+  echo " .          .                        .______"
+  echo "(|  |  |___ |\  _.   _    . .   _   () |_. _,        _    /"
+  echo " |  |  | |/ |/ /   / \_/|/|/|  |/     /| |/ |  |  | |/   /"
+  echo "  \/ \/  |_/|_/\__/\_/  | | |_/|_/   (/   \/|_/ \/|/|_/ o"
+  echo "                                                 (|"
+
+  set animal (random choice {turkey,blowfish,default,dragon,small,turtle,elephant,moose,stegosaurus,tux})
 end
 ```
 To view all cowsay files, do `cowsay -l`
