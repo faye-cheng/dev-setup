@@ -52,15 +52,14 @@ After adding content, convert file:
 
 ### custom fish_prompt
 
-Edit config.fish file in `~/.config/fish/config.fish`, make sure fortune is calling the custom quote folder you created:
+I moved these files to my faye_setup folder, so update it to the quotes path. Edit config.fish file in `~/.config/fish/config.fish`.
 
 ```
 function fish_greeting
   set animal (random choice {default,dragon,small,turtle,elephant,moose,stegosaurus,tux})
-  fortune quotes | cowsay -f $animal | lolcat
+  fortune /Users/faye.cheng/faye_setup/quotes | cowsay -f $animal | lolcat
 end
 ```
-
 To view all cowsay files, do `cowsay -l`
 
 cowsay files are located in: `/usr/local/Cellar/cowsay/3.04/share/cows`
