@@ -34,7 +34,8 @@ Custom User Settings:
         "editor.background": "#111010",
         "activityBarBadge.background": "#ff8f7b"
       }
-}```
+}
+```
 
 ### Install Oh My Zsh
 
