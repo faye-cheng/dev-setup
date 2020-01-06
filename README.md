@@ -17,6 +17,8 @@ https://www.reddit.com/r/zsh/comments/ciziab/powerlevel10k_configuration_wizard/
 
 ## Customize terminal prompt
 
+https://vscode.readthedocs.io/en/latest/editor/command-line/
+
 ### Install `cowsay`, `fortune`, and `lolcat`
 
 `brew install cowsay`
