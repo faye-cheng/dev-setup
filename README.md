@@ -22,18 +22,24 @@ Custom User Settings:
     "workbench.colorTheme": "Seti Black",
     "editor.wordWrap": "on",
     "workbench.colorCustomizations": {
+      // sidebar
         "sideBar.background": "#202020",
         "activityBar.background": "#202020",
         "activityBar.activeBorder": "#6fc4fc",
-        "activityBar.inactiveForeground": "#ffffff",
-        "activityBar.foreground": "#f1dea8",
+        "activityBarBadge.background": "#ff8f7b",
+      // icons
+        "activityBar.inactiveForeground": "#f3e5e5",
+        "activityBar.foreground": "#f7d168",
+      // tabs
         "tab.activeBackground": "#202020",
         "tab.activeBorder": "#51d698",
         "tab.border": "#000000",
         "tab.inactiveBackground": "#202020",
-        "editor.background": "#111010",
-        "activityBarBadge.background": "#ff8f7b"
-      }
+
+      // editor
+        "editor.background": "#111010"
+      },
+      "editor.fontSize": 11
 }
 ```
 
