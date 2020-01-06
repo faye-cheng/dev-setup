@@ -1,4 +1,4 @@
-# Faye's Custom Environment Set Up for MacOS
+# Custom Setup for MacOS
 
 ## Terminal Shell
 
@@ -6,29 +6,16 @@
 
 `brew cask install iterm2`
 
-### Install Fish
+### Install VSCode
 
-Install fish shell via Homebrew:
+### Install Oh My Zsh
 
-`brew install fish`
+https://gist.github.com/kevin-smets/8568070
+https://www.reddit.com/r/zsh/comments/ciziab/powerlevel10k_configuration_wizard/
 
-Add fish to /etc/shells:
+### Set theme to powerlevel10k and follow instructions
 
-`echo "/usr/local/bin/fish" | sudo tee -a /etc/shells`
-
-Make fish the default shell:
-
-`chsh -s /usr/local/bin/fish`
-
-### Install Oh My Fish
-
-`curl -L https://get.oh-my.fish | fish`
-
-### Set omf theme to bobthefish
-
-`omf install bobthefish`
-
-## Custom terminal prompt
+## Customize terminal prompt
 
 ### Install `cowsay`, `fortune`, and `lolcat`
 
