@@ -8,6 +8,34 @@
 
 ### Install VSCode
 
+VSCode Themes
+https://vscodethemes.com/
+
+Edit theme in workbench
+https://code.visualstudio.com/docs/getstarted/settings
+
+Seti Black
+https://vscodethemes.com/e/bobsparadox.seti-black
+
+Custom User Settings:
+```{
+    "workbench.colorTheme": "Seti Black",
+    "editor.wordWrap": "on",
+    "workbench.colorCustomizations": {
+        "sideBar.background": "#202020",
+        "activityBar.background": "#202020",
+        "activityBar.activeBorder": "#6fc4fc",
+        "activityBar.inactiveForeground": "#ffffff",
+        "activityBar.foreground": "#f1dea8",
+        "tab.activeBackground": "#202020",
+        "tab.activeBorder": "#51d698",
+        "tab.border": "#000000",
+        "tab.inactiveBackground": "#202020",
+        "editor.background": "#111010",
+        "activityBarBadge.background": "#ff8f7b"
+      }
+}```
+
 ### Install Oh My Zsh
 
 https://gist.github.com/kevin-smets/8568070
