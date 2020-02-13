@@ -43,6 +43,10 @@ Custom User Settings:
 }
 ```
 
+### Enable vscode shortcut from terminal
+
+https://kevgriffin.com/how-to-run-visual-studio-code-from-zsh-on-mac-osx/
+
 ### Install Oh My Zsh
 
 https://gist.github.com/kevin-smets/8568070
