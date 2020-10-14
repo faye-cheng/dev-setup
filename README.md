@@ -54,9 +54,13 @@ https://www.reddit.com/r/zsh/comments/ciziab/powerlevel10k_configuration_wizard/
 
 ### Set theme to powerlevel10k and follow instructions
 
+### Other themes
+https://github.com/Powerlevel9k/powerlevel9k/wiki/Show-Off-Your-Config
+
 ## Customize terminal prompt
 
 https://vscode.readthedocs.io/en/latest/editor/command-line/
+https://hackernoon.com/how-to-trick-out-terminal-287c0e93fce0
 
 ### Install `cowsay`, `fortune`, and `lolcat`
 
