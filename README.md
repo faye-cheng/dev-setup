@@ -1,8 +1,10 @@
 # Custom Setup for MacOS
 
 ## Screensaver
-#Apple TV Aeriel
-https://github.com/JohnCoates/Aerial/releases/
+# Apple TV Aeriel
+
+https://github.com/JohnCoates/Aerial/releases/\
+https://aerialscreensaver.github.io/
 
 ## Terminal Shell
 
