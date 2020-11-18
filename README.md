@@ -53,6 +53,8 @@ Custom User Settings:
 
 https://kevgriffin.com/how-to-run-visual-studio-code-from-zsh-on-mac-osx/
 
+`code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}` in .zshrc file
+
 ### Install Oh My Zsh
 
 https://gist.github.com/kevin-smets/8568070
